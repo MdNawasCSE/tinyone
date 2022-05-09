@@ -1,0 +1,285 @@
+/* Common Header Part Start */
+.manual {
+  color: white;
+  background: rgba(109, 0, 25, 1);
+  background: -moz-linear-gradient(left, rgba(109, 0, 25, 1) 0%, rgba(109, 0, 25, 1) 22%, rgba(169, 3, 41, 1) 47%, rgba(109, 0, 25, 1) 82%, rgba(109, 0, 25, 1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(109, 0, 25, 1)), color-stop(22%, rgba(109, 0, 25, 1)), color-stop(47%, rgba(169, 3, 41, 1)), color-stop(82%, rgba(109, 0, 25, 1)), color-stop(100%, rgba(109, 0, 25, 1)));
+  background: -webkit-linear-gradient(left, rgba(109, 0, 25, 1) 0%, rgba(109, 0, 25, 1) 22%, rgba(169, 3, 41, 1) 47%, rgba(109, 0, 25, 1) 82%, rgba(109, 0, 25, 1) 100%);
+  background: -o-linear-gradient(left, rgba(109, 0, 25, 1) 0%, rgba(109, 0, 25, 1) 22%, rgba(169, 3, 41, 1) 47%, rgba(109, 0, 25, 1) 82%, rgba(109, 0, 25, 1) 100%);
+  background: -ms-linear-gradient(left, rgba(109, 0, 25, 1) 0%, rgba(109, 0, 25, 1) 22%, rgba(169, 3, 41, 1) 47%, rgba(109, 0, 25, 1) 82%, rgba(109, 0, 25, 1) 100%);
+  background: linear-gradient(to right, rgba(109, 0, 25, 1) 0%, rgba(109, 0, 25, 1) 22%, rgba(169, 3, 41, 1) 47%, rgba(109, 0, 25, 1) 82%, rgba(109, 0, 25, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6d0019', endColorstr='#6d0019', GradientType=1);
+  transition: 1s;
+}
+
+.manual:hover {
+  background: rgba(255, 255, 255, 1);
+  background: -moz-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(237, 237, 237, 1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255, 255, 255, 1)), color-stop(47%, rgba(246, 246, 246, 1)), color-stop(100%, rgba(237, 237, 237, 1)));
+  background: -webkit-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(237, 237, 237, 1) 100%);
+  background: -o-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(237, 237, 237, 1) 100%);
+  background: -ms-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(237, 237, 237, 1) 100%);
+  background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(237, 237, 237, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed', GradientType=1);
+  color: rgba(109, 0, 25, 1);
+}
+
+/* Common Header Part End */
+/* Fonts Integration Start*/
+@font-face {
+  src: url(./../fonts/PT_Sans/PTSans-Regular.ttf);
+  font-family: PTSans-Regular;
+}
+
+@font-face {
+  src: url(./../fonts/PT_Sans/PTSans-Bold.ttf);
+  font-family: PTSans-Bold;
+}
+
+/* Fonts Integration End */
+/* Body Common Start*/
+body {
+  font-family: PTSans-Regular;
+  font-size: 16px;
+  font-weight: 400;
+  color: #555555;
+}
+
+/* BOdy Common End */
+/* Header Start*/
+header {
+  background-color: #fcdb00;
+}
+
+.c-nav {
+  padding: 45px 0 51px 0;
+}
+
+.c-toggle {
+  color: rgb(255 255 255 / 100%) !important;
+  border-color: rgb(255 255 255 / 10%) !important;
+}
+
+.menu {}
+
+.menu li {}
+
+.menu li a {
+  font-family: PTSans-Bold;
+  font-size: 22px;
+  color: #010101 !important;
+  margin-top: 9px;
+}
+
+.menu li a:hover {
+  color: white !important;
+}
+
+.n-p {
+  padding: 0 35px !important;
+}
+
+.n-lp {
+  padding: 0 0 0 35px !important;
+}
+
+/* Header End */
+/* Slider Part Start */
+.c_sliderpart {
+  padding-bottom: 108px;
+  background-color: #fcdb00;
+}
+
+.c-ind {
+  bottom: -81px;
+}
+
+.c-ind [data-bs-target] {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+
+.s_text {
+  margin-top: 70px;
+}
+
+.s_text h1 {
+  font-family: 'PTSans-Bold';
+  font-size: 32px;
+  font-weight: 700;
+  color: #010101;
+  margin-bottom: 23px;
+}
+
+.s_text h3 {
+  font-family: 'PTSans-Regular';
+  font-size: 20px;
+  font-weight: 400;
+  color: #313841;
+  word-spacing: 3px;
+  letter-spacing: 1px;
+  margin-bottom: 29px;
+}
+
+.s_text p {
+  font-family: 'PTSans-Regular';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  color: #555555;
+}
+
+.s_icon {}
+
+.s_icon li i {
+  font-size: 42px;
+  color: #010101;
+  margin-right: 30px;
+}
+
+.s_image {}
+
+.s_image img {}
+
+/* Slider Part End */
+/* c-padding Start */
+/* First Row */
+.c-padding {
+  padding: 110px 0 150px 0;
+}
+
+.c-firstpart {}
+
+.c-firstpart-h1 {
+  font-family: PTSans-Bold;
+  font-size: 32px;
+  font-weight: 700;
+  color: #010101;
+}
+
+.c-firstpart-p {
+  font-family: PTSans-Regular;
+  font-size: 20px;
+  font-weight: 400;
+  color: #313841;
+}
+
+/* First Row End */
+/* Second Row Start */
+.c-mt-70 {
+  margin-top: 70px;
+}
+
+.c-icon {}
+
+.c-icon i {
+  font-size: 50px;
+  color: #010101;
+}
+
+/* .c-insCont {
+      margin-top: 8px;
+} */
+.c-insCont h2 {
+  font-size: 22px;
+  font-weight: 400;
+  color: #010101;
+}
+
+.c-insCont p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #898989;
+}
+
+/* Second Row End */
+/* c-padding End */
+/* Last Part Start*/
+.lastpart {
+  background-color: #010101;
+}
+
+.t-color {
+  color: #fcdb00;
+}
+
+.p-color {
+  color: #898989;
+}
+
+.m-tb {
+  margin: 25px 0 79px 0;
+}
+
+.c-form {
+  width: 100%;
+  height: 50px;
+}
+
+.c-form:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #fcdb00;
+  outline: 0;
+  box-shadow: 0 0 0 0.1rem rgb(252 219 0);
+}
+
+.c-btn {
+  width: 100%;
+  height: 50px;
+  font-family: PTSans-Bold;
+  font-size: 16px;
+  font-weight: 700;
+  color: #010101;
+  text-transform: uppercase;
+  background-color: #fcdb00;
+  transition: .3s;
+}
+
+.c-btn:hover {
+  background-color: white;
+  color: #fcdb00;
+  border: 1px solid #fcdb00;
+}
+.l-icon {}
+
+.l-icon ul li{
+  background-color: #fcdb00;
+  border-radius: 9px;
+  margin:0 13px 0;
+  transition: 0.3s;
+}
+
+.l-icon ul li:hover{
+  background-color: white;
+}
+.l-icon ul li a i {
+  width: 46px;
+  height: 38px;
+  font-size: 42px;
+  color: #010101;
+}
+.l-icon ul li a i:hover{
+color:#f3d71b;
+}
+/* Last Part End*/
+
+/* Footer Start */
+footer{
+  background-color: #010101;
+  padding-bottom: 130px;
+}
+.f-1, .f-2{
+  color: #ffffff;
+}
+
+.f-2 ul li a{
+  text-decoration: none;
+  color: #ffffff;
+}
+.f-2 ul li a:hover{
+   color: #fcdb00;
+}
+/* Footer End */
