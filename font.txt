@@ -1,0 +1,72 @@
+All fonts downloaded just call and declare
+CSS part:
+
+@font-face{
+	src:url(../fonts/Lexend/Lexend-Bold.ttf);
+	font-family:Lexend-Bold;
+}
+
+@font-face{
+	src:url(../fonts/Lexend/Lexend-Regular.ttf);
+	font-family:Lexend-Regular;
+}
+
+@font-face{
+	src:url(../fonts/Playfair_Display/PlayfairDisplay-Black.ttf);
+    font-family: PlayfairDisplay-Black;
+}
+
+@font-face{
+	src:url(../fonts/Playfair_Display/PlayfairDisplay-Bold.ttf);
+    font-family: PlayfairDisplay-Bold;
+}
+
+@font-face{
+	src:url(../fonts/Playfair_Display/PlayfairDisplay-Italic.ttf);
+    font-family: PlayfairDisplay-Italic;
+}
+
+@font-face{
+	src:url(../fonts/Playfair_Display/PlayfairDisplay-Regular.ttf);
+    font-family: PlayfairDisplay-Regular;
+
+}
+
+@font-face{
+	src:url(../fonts/Ubuntu/Ubuntu-Light.ttf);
+	font-family: Ubuntu-Light;
+}
+
+@font-face{
+	src:url(../fonts/Inconsolata/Inconsolata-Regular.ttf);
+	font-family: Inconsolata-Regular;
+}
+
+@font-face {
+  src: url(./../fonts/Roboto/Roboto-Regular.ttf);
+  font-family: Roboto-Regular;
+}
+
+@font-face {
+  src: url(../fonts/Roboto/Roboto-Medium.ttf);
+  font-family: Roboto-Medium;
+}
+
+@font-face {
+  src: url(../fonts/Lato/Lato-Regular.ttf);
+  font-family: Lato-Regular;
+}
+@font-face {
+  src: url(./../fonts/Lato/Lato-Bold.ttf);
+  font-family: Lato-Bold;
+}
+
+@font-face {
+  src: url(./../fonts/PT_Sans/PTSans-Regular.ttf);
+  font-family: PTSans-Regular;
+}
+
+@font-face {
+  src: url(./../fonts/PT_Sans/PTSans-Bold.ttf);
+  font-family: PTSans-Bold;
+}
